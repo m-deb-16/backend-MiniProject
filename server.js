@@ -28,5 +28,5 @@ app.use("/contactForm", contactRoutes);
 
 const PORT = 4000;
 app.listen(PORT, () => {
-  console.log("listening on port " + PORT);
+  console.log("listening on port: " + PORT);
 });

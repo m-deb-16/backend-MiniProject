@@ -5,5 +5,18 @@
     "express": "^4.19.2",
     "mongoose": "^8.3.2",
     "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "backend-miniproject",
+  "description": "backend for react project using ExpressJS",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Mainak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
