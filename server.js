@@ -7,6 +7,11 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+//added from stackoverflow cuz of some cors error; had to install cors
+var cors = require("cors");
+
+app.use(cors()); // Use this after the variable declaration
+
 const contactRoutes = require("./routes/contactRoutes");
 app.use(express.json());
 const connectDB = async () => {
